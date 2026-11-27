@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glow & Groom</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #F8D7EA; color: #2C1E3A; font-family: Arial, sans-serif; margin: 20px;">
+
+  <div style="background-color: #2C1E3A; color: #FFFFFF; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+    <h1>Glow & Groom.</h1>
+    <p>A LITTLE CARE. A LOT OF YOU & Your next good-hair, good-skin day starts here.</p>
+    <a href="#services" style="color: #FFFFFF; margin-right: 15px;">Hair Days</a>
+    <a href="#services" style="color: #FFFFFF; margin-right: 15px;">Skin Wins</a>
+    <a href="#booking" style="color: #FFFFFF;">Book Now</a>
+  </div>
+
+  <div style="background-color: #FFFFFF; border: 1px solid #2C1E3A; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+    <h2>Your beauty. Your care. Your confidence.</h2>
+    <p>Book salon services or connect with qualified dermatologists in Nagpur in one simple place.</p>
+    
+    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=80" 
+         class="img-fluid rounded my-3" 
+         alt="Glow and Groom Salon Interior" 
+         style="width: 100%; max-height: 350px; object-fit: cover;">
+
+    <p><b>01 Salon & Grooming:</b> Hair & Skin & Spa & Grooming</p>
+    <p><b>02 Dermatologist Care:</b> Verified profiles & Consultations & Follow-ups</p>
+  </div>
+  <div style="background-color: #FFFFFF; border: 1px solid #2C1E3A; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+    <h3>Our Specialties</h3>
+    <div class="row">
+      <div class="col">
+        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" 
+             class="img-fluid rounded"  
+             style="height: 200px; width: 100%; object-fit: cover;">
+        <p class="mt-2 mb-0 text-center"><b>Haircut & Styling</b></p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="services" style="background-color: #FFFFFF; border: 1px solid #2C1E3A; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+    <h3>Salon Services & Price Table (Nagpur)</h3>
+    <table class="table table-bordered table-striped mt-3">
+      <thead>
+        <tr style="background-color: #2C1E3A; color: #FFFFFF;">
+          <th style="background-color: #2C1E3A; color: #FFFFFF;">Service Name</th>
+          <th style="background-color: #2C1E3A; color: #FFFFFF;">Branch</th>
+          <th style="background-color: #2C1E3A; color: #FFFFFF;">Time</th>
+          <th style="background-color: #2C1E3A; color: #FFFFFF;">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Haircut & Styling</td>
+          <td>Dharampeth</td>
+          <td>45 mins</td>
+          <td>Rs. 599</td>
+        </tr>
+        <tr>
+          <td>Signature Facial</td>
+          <td>Civil Lines</td>
+          <td>60 mins</td>
+          <td>Rs. 1299</td>
+        </tr>
+        <tr>
+          <td>Hair Spa</td>
+          <td>Sadar</td>
+          <td>50 mins</td>
+          <td>Rs. 899</td>
+        </tr>
+        <tr>
+          <td>Dr. Aditi Mehra (Dermatologist)</td>
+          <td>Ramdaspeth</td>
+          <td>30 mins</td>
+          <td>Rs. 800</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="booking" style="background-color: #FFFFFF; border: 1px solid #2C1E3A; padding: 20px; border-radius: 8px;">
+    <h3>Book Your Salon Appointment</h3>
+    <form>
+      <p>Full Name:<br><input type="text" class="form-control" placeholder="Enter your name" required></p>
+      <p>Mobile Number:<br><input type="tel" class="form-control" placeholder="Enter mobile number" required></p>
+      <p>Select Service:<br>
+        <select class="form-select">
+          <option>Haircut & Styling</option>
+          <option>Signature Facial</option>
+          <option>Hair Spa</option>
+          <option>Dermatologist Consultation</option>
+        </select>
+      </p>
+      <p>Select Date:<br><input type="date" class="form-control" required></p>
+      <p>Select Time:<br>
+        <select class="form-select">
+          <option>10:30 AM</option>
+          <option>12:00 PM</option>
+          <option>03:30 PM</option>
+          <option>05:30 PM</option>
+        </select>
+      </p>
+      <button type="submit" style="background-color: #2C1E3A; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px;">Confirm Appointment</button>
+    </form>
+  </div>
+
+</body>
+</html>
